@@ -12,11 +12,11 @@ int main()
     float e;
 
    
-    printf("Size of int: %zu byte(s)\n",(unsigned int)sizeof(a));
-    printf("size of char: %zu byte(s)\n",(unsigned char)sizeof(b));
-    printf("Size of long int: %zu byte(s)\n", (unsigned long int)sizeof(c));
-    printf("Size of long long int: %zu byte(s)\n", (unsigned long long int)sizeof(d));
-    printf("Size of float: %zu byte(s)\n", (unsigned float)sizeof(e));
+    printf("Size of int: %zu byte(s)\n",(unsigned long)sizeof(a));
+    printf("size of char: %zu byte(s)\n",(unsigned long)sizeof(b));
+    printf("Size of long int: %zu byte(s)\n", (unsigned long)sizeof(c));
+    printf("Size of long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
+    printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(e));
     
     return (0);
 }
