@@ -5,9 +5,11 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entry point
- * return: 0
+ * main - Entry point
+ * description: the if else loop
+ * return: 0(success)
 */
+
 int main(void)
 {
 	int n;
